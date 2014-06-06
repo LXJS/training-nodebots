@@ -60,3 +60,32 @@ No materials are required for the workshopper, but if you want to build your cir
 * [Sparkfun Inventor Kit](https://www.sparkfun.com/products/12001)
 * [Arduino Starter Kit ARDX](http://oomlout.co.uk/collections/arduino/products/arduino-starter-kit-ardx)
 * [Proto-PIC Arduino Starter Kit](http://proto-pic.co.uk/proto-pic-arduino-starter-kit-for-arduino-uno/)
+
+## 27 jun - 14:30h Participants
+
+- Afonso Oliveira - [afonsomota](https://github.com/afonsomota)
+- Jorge Monteiro - [jorgemonteiro](https://github.com/jorgemonteiro)
+- Leonardo Aretakis - [leoaretakis](https://github.com/leoaretakis)
+- Mario Nzualo - [marionzualo](https://github.com/marionzualo)
+- Max Gfeller - [MaxGfeller](https://github.com/MaxGfeller)
+- Michael Geers - [naltatis](https://github.com/naltatis)
+- Miguel Serrano - [miguelvps](https://github.com/miguelvps)
+- Miguel Palhas - [naps62](https://github.com/naps62)
+- Rogério Vicente - [rogeriopvl](https://github.com/rogeriopvl)
+- Ronaldo Sousa - [ronaldofs](https://github.com/ronaldofs)
+
+## 28 jun - 17:30h Participants
+
+- Bruno Azevedo - [azevedo-252](https://github.com/azevedo-252)
+- Charlie Robbins - [indexzero](https://github.com/indexzero)
+- Daniel da Silva - [danielfdsilva](https://github.com/danielfdsilva)
+- Hugo Rodrigues - [hugominas](https://github.com/hugominas)
+- James Nocentini - [jamiltz](https://github.com/jamiltz)
+- João Nelas - [adagios](https://github.com/adagios)
+- Jonathan Lipps - [jlipps](https://github.com/jlipps)
+- Jorge Braz - [jorgepcbraz](https://github.com/jorgepcbraz)
+- Miguel Coquet - [mcoquet](https://github.com/mcoquet)
+- Nelson Neves - [nneves](https://github.com/nneves)
+- Ricardo Tomasi - [ricardobeat](https://github.com/ricardobeat)
+- Ricardo Soares - [rsoares](https://github.com/rsoares)
+- Stefan Jansen - [xtravanta](https://github.com/xtravanta)
