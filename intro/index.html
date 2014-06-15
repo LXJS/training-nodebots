@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="A lightning talk by @olizilla for LNUG on the wonders of NodeBots">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bluffers Guide To Nodebots</title>
+    <link rel="stylesheet" href="lib/normalize.v2.1.css">
+    <link rel="stylesheet" href="lib/stack.2013-09-23.css">
+    <link rel="stylesheet" href="bluffers-guide-to-nodebots.css">
+</head>
+<body>
+    <section style="background: #F8E01E; text-align:center;">
+      <h1><b>NodeBot Workshop</b></h1>
+      <p></p>
+      <style media="screen">
+      .nodebot{
+        margin:0;
+        z-index:2;
+        opacity: 1;
+        width:500px;
+        height:500px;
+        position:relative;
+        left:200px;
+        top:-250px;
+      }
+      .nodebot .icon{
+        position:absolute;
+        bottom:8%;
+        right:8%;
+        width:45.6%;
+        height:50%;
+      }
+      .nodebot .icon * {
+        background: #2e2e2c;
+      }
+      .nodebot .icon .bobble{
+        width:12.5%;
+        height:12%;
+        border-radius: 100%;
+        margin:5% auto -3.8%;
+      }
+      .nodebot .antenna{
+        width:6%;
+        margin:0 auto 4%;
+        height:16.5%;
+        border-bottom-left-radius: 80% 30%;
+        border-bottom-right-radius: 80% 30%;
+      }
+      .nodebot .head{
+        width: 100%;
+        height: 48.5%;
+        border-top-left-radius: 15% 25%;
+        border-top-right-radius: 15% 25%;
+        position:relative;
+      }
+      .nodebot .head .eye{
+        width:18%;
+        height:33.5%;
+        margin:0 18.2%;
+        border-radius: 100%;
+        background-color: #F8E01E;
+        display: inline-block;
+        position:absolute;
+        top:26%;
+        left: 0px;
+        -webkit-animation: blink 5s 2s infinite;
+                animation: blink 5s 2s infinite
+      }
+      .nodebot .eye.right{
+        left: auto;
+        right:0;
+      }
+      .nodebot .head .eye.blink {
+        height: 6%;
+        top:36%;
+        border-radius: 0;
+        background-color: #000;
+      }
+      .nodebot .neck{
+        border-radius: 20px;
+        width: 69%;
+        height: 6%;
+        margin: 3.6% auto 0;
+      }
+      .nodebot .neck:last-child{
+        width: 48%;
+      }
+
+      @-webkit-keyframes blink {
+        0%, 4%, 8%, 100%{
+          height:33.5%;
+          border-radius: 100%;
+          background-color: #F8E01E;
+          top:26%;
+        }
+        2%, 6% {
+          height: 6%;
+          top:36%;
+          border-radius: 0;
+          background-color: #000;
+        }
+      }
+
+      @keyframes blink {
+        0%, 4%, 8%, 100%{
+          height:33.5%;
+          border-radius: 100%;
+          background-color: #F8E01E;
+          top:26%;
+        }
+        2%, 6% {
+          height: 6%;
+          top:36%;
+          border-radius: 0;
+          background-color: #000;
+        }
+      }
+      </style>
+      <div class="nodebot">
+        <div class="icon">
+          <div class="bobble"></div>
+          <div class="antenna"></div>
+          <div class="head">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+          </div>
+          <div class="neck"></div>
+          <div class="neck"></div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background:url(https://raw.github.com/rwaldron/johnny-five/master/assets/sgier-johnny-five.png) no-repeat; background-size:cover">
+        <h1>NodeBots are robots powered by JS</h1>
+    </section>
+
+    <section style="background:url(img/nodebot.jpg) no-repeat; background-size:cover">
+        <div class="hi-viz">
+        <p>See:</p>
+        <ul>
+            <li><a href="https://github.com/rwaldron/johnny-five">johnny-five</a> - The jQuery of robotics</li>
+            <li><a href="https://github.com/voodootikigod/node-serialport">node-serialport</a> - Rx/Tx your brains out</li>
+        </ul>
+        </div>
+    </section>
+
+    <section style="background:url(img/nodecopter.jpg) no-repeat; background-size:cover">
+        <h1>NodeCopters are flight capable NodeBots</h1>
+    </section>
+
+    <section style="background:url(img/crazyflie.jpg) no-repeat; background-size:cover">
+        <div class="hi-viz">
+        <p>See:</p>
+        <ul>
+            <li><a href="https://github.com/felixge/node-ar-drone">ar-drone</a> - Parrot AR Drone client</li>
+            <li><a href="https://github.com/ceejbot/aerogel">aerogel</a> - Crazyflie nanocopter client</li>
+        </ul>
+        </div>
+    </section>
+
+    <section style="background:url(img/johnny-5-is-meta.jpg) no-repeat; background-size:cover">
+        <h1 style="color:#f3df49">Most NodeBots are johnny-five</h1>
+    </section>
+
+    <section style="text-align:center">
+        <h1 style="margin:-20px 0 0"><span class="js">johnny-five</span> let's Node talk JS to Arduino via Firmata</h1>
+        <img src="img/node-arduino.png">
+    </section>
+
+    <section style="background:url(img/arduino.jpg) no-repeat; background-size:cover">
+        <div class="hi-viz">
+        <h2>
+            Arduino is a usb device <br/> &amp; IDE app for <blink>blinking LEDs</blink>*</h2>
+        <p>*Other components are available</p>
+        </div>
+    </section>
+
+    <section style="text-align:center; background:url(img/Arduino-IDE.jpg) no-repeat; background-size:cover">
+        <div class="hi-viz">
+        <h2 style="margin:0">The IDE uploads programs for blinking LEDs to the Ardunio</h2>
+        <video controls="false" autoplay="autoplay" loop="loop" muted="muted">
+            <source src="http://dl.dropbox.com/u/3531958/led-strobe.mp4">
+            <source src="http://dl.dropbox.com/u/3531958/led-strobe.ogv">
+            <source src="http://dl.dropbox.com/u/3531958/led-strobe.webm">
+        </video>
+        </div>
+    </section>
+
+    <section style="text-align:center; background:url(img/Arduino-IDE.jpg) no-repeat; background-size:cover">
+        <h2 style="margin:0;color:#222">The IDE is the love-child of <br>
+            Processing (Java) <br>&amp;<br> Wiring (C++)</h2>
+    </section>
+
+    <section style="background:url(img/johnny-5-is-your-friend.jpg) no-repeat; background-size:cover">
+        <h1><span class="js">johnny-five</span> is your friend</h1>
+        <p>Program hardware with plain ol'JS and your favourite editor</p>
+    </section>
+
+    <section style="background:url(img/data.jpg) no-repeat; background-size:cover">
+        <div class="hi-viz">
+            <h1 style="margin:0">Firmata is a comms protocol
+                &amp; <br>Arduino program</h1>
+            <p>Expose Arduino functionality over the serialport</p>
+        </div>
+    </section>
+
+    <section style="background:url(img/data.jpg) no-repeat; background-size:cover; text-align:center">
+        <img src="img/firmata.jpg">
+    </section>
+
+    <section style="background:url(img/johnny-5-is-rage.jpg) no-repeat; background-size:cover">
+        <p style="margin-top:210px; background:rgba(0,0,0,0.6); text-align:center">johnny-five ⇄ serialport ⇄ Firmata ⇄ Ardunio </p>
+    </section>
+
+    <section style="text-align:center">
+        <h1>IMPORTANT <br>SAFETY WARNING</h1>
+    </section>
+
+     <section style="text-align:center; background:url(img/johnny-5-is-hard.jpg) no-repeat; background-size:cover">
+        <h1 style="margin-top:300px;background:rgba(0,0,0,0.4)">HARDWARE IS HARD</h1>
+    </section>
+
+    <section style="text-align:center">
+        <iframe style="margin:-120px auto" src="http://instagram.com/p/cgrjoppxlp/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+    </section>
+
+    <section style="text-align:center; background:url(img/johnny-5-is-cowboy.jpg) no-repeat; background-size:cover">
+        <h2 style="margin-top:300px;background:rgba(0,0,0,0.4)">Usual approach is useless here</h2>
+        <p>Good luck with your test coverage</p>
+    </section>
+
+    <section>
+        <h1>Reality has a terrible API</h1>
+        <ul>
+            <li>The Generous Motor</li>
+            <li>The Enfeebled Servo</li>
+            <li>Fudge's Constant</li>
+        </ul>
+    </section>
+
+    <section style="background:url(img/johnny-5-is-hold-you.jpg) no-repeat; background-size:cover">
+        <h2>firmata requires constant <br>usb connection to host<h2>
+    </section>
+
+    <section style="background:url(img/johnny-5-goes-camping.jpg) no-repeat; background-size:cover">
+        <div class="hi-viz">
+            <h1>Future Tech?</h1>
+            <ul>
+                <li><a href="http://technical.io">technical.io</a> - Tessel - JS on hardware</li>
+                <li><a herf="http://www.kickstarter.com/projects/48651611/espruino-javascript-for-things">Espruino</a> - Javascript for things</li>
+            </ul>
+        </div>
+    </section>
+
+    <section style="background:url(img/johnny-5-is-@fat.jpg) no-repeat; background-size:cover">
+        <h1>@fat?</h1>
+    </section>
+
+    <section>
+        <h1>(╯°□°）╯︵ ┻━┻</h1>
+    </section>
+
+    <section style="background:black">
+        <h1 style="text-align:center">Fin</h1>
+    </section>
+
+    <section style="background-image:url(img/jolly-roger.gif);background-size:cover">
+        <img style="position:fixed; bottom:10px" src="img/explosion.gif" />
+        <img style="position:fixed; bottom:10px; right:60px" src="img/explosion.gif" />
+    </section>
+
+    <script src="lib/d3.v3.js"></script>
+    <script src="lib/stack.2013-09-23.js"></script>
+    <script src="lib/buzz.v1.0.5.js"></script>
+    <script>
+        stack();
+        var coin = new buzz.sound( "audio/coin", { formats: [ "ogg", "mp3" ] }).load();
+        coin.setVolume(20).play();
+    </script>
+</body>
