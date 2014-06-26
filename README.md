@@ -72,6 +72,7 @@ No materials are required for the workshopper, but if you want to build your cir
 - Karolis Narkevicius - [KidkArolis](https://github.com/KidkArolis)
 - Michael Geers - [naltatis](https://github.com/naltatis)
 - Alex Treppass - [alextreppass](https://github.com/alextreppass)
+- Derek Johnston - [derekbjohnston](https://github.com/derekbjohnston)
 - Max Gfeller - [MaxGfeller](https://github.com/MaxGfeller)
 - Mike Brevoort - [mbrevoort](https://github.com/mbrevoort)
 - Kevin Sawicki - [kevinsawicki](https://github.com/kevinsawicki)
@@ -90,6 +91,7 @@ No materials are required for the workshopper, but if you want to build your cir
 - Nathan Sobo - [nathansobo](https://github.com/nathansobo)
 - Andy Trevorah - [trevorah](https://github.com/trevorah)
 - Mauro Henriques - [Degetel-mhenriques](https://github.com/Degetel-mhenriques)
+- Gegely Szanto - [szantogeri](https://github.com/szantogeri)
 
 ## 28 jun - 17:30h Participants
 
@@ -123,3 +125,4 @@ No materials are required for the workshopper, but if you want to build your cir
 - Walter Carvalho - [waltervascarvalho](https://github.com/waltervascarvalho)
 - Mate Nadasdi - [matenadasdi](https://github.com/matenadasdi)
 - Espen Hovlandsdal  - [rexxars](https://github.com/rexxars)
+- Ricardo Batista - [nihildacta](https://github.com/nihildacta)
