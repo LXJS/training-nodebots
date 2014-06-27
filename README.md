@@ -70,10 +70,13 @@ No materials are required for the workshopper, but if you want to build your cir
 - Mario Nzualo - [marionzualo](https://github.com/marionzualo)
 - Matej Nemcek - [yangwao](https://github.com/yangwao)
 - Karolis Narkevicius - [KidkArolis](https://github.com/KidkArolis)
+- Diogo Santos - [diogodssantos](https://github.com/diogodssantos)
 - Michael Geers - [naltatis](https://github.com/naltatis)
 - Alex Treppass - [alextreppass](https://github.com/alextreppass)
 - Derek Johnston - [derekbjohnston](https://github.com/derekbjohnston)
 - Max Gfeller - [MaxGfeller](https://github.com/MaxGfeller)
+- Sergey Belov - [arikon](https://github.com/arikon)
+- Alejandro Dev - [ainformatico](https://github.com/ainformatico)
 - Mike Brevoort - [mbrevoort](https://github.com/mbrevoort)
 - Kevin Sawicki - [kevinsawicki](https://github.com/kevinsawicki)
 - Marco Ferreira - [xpt0](https://github.com/xpt0)
@@ -92,6 +95,9 @@ No materials are required for the workshopper, but if you want to build your cir
 - Andy Trevorah - [trevorah](https://github.com/trevorah)
 - Mauro Henriques - [Degetel-mhenriques](https://github.com/Degetel-mhenriques)
 - Gegely Szanto - [szantogeri](https://github.com/szantogeri)
+- Gamboa Gamboa - [suskind](https://github.com/suskind)
+- Nuno Jesus - [nmjesus](https://github.com/nmjesus)
+- Joel Matias - [JoelBMatias](https://github.com/JoelBMatias)
 
 ## 28 jun - 17:30h Participants
 
@@ -107,6 +113,7 @@ No materials are required for the workshopper, but if you want to build your cir
 - James Nocentini - [jamiltz](https://github.com/jamiltz)
 - Ricardo Soares - [rsoares](https://github.com/rsoares)
 - Miguel Coquet - [mcoquet](https://github.com/mcoquet)
+- Sergey Belov - [arikon](https://github.com/arikon)
 - Stefan Jansen - [xtravanta](https://github.com/xtravanta)
 - Pedro Melo Pereira - [pmelopereira](https://github.com/pmelopereira)
 - Tom Ashworth - [phuu](https://github.com/phuu)
@@ -126,3 +133,4 @@ No materials are required for the workshopper, but if you want to build your cir
 - Mate Nadasdi - [matenadasdi](https://github.com/matenadasdi)
 - Espen Hovlandsdal  - [rexxars](https://github.com/rexxars)
 - Ricardo Batista - [nihildacta](https://github.com/nihildacta)
+- Wilson Silva - [wilsonsilva](https://github.com/wilsonsilva)
